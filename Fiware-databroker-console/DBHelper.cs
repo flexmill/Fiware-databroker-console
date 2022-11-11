@@ -13,14 +13,11 @@ namespace Databroker.Helper
 
         public static void GetConnectionString()
         {
-            string databaseServer  = "185.131.183.61";
+            string databaseServer  = "Your Server";
             string databasePort     = "53306";
             string databaseUsername = "flexmill";
-            string databasePassword = "5t39PDfTeV7JWyaS";
-           // connectionString = "server=192.168.5.146;port=3306;user=" + databaseUsername + ";password=" + databasePassword + ";database=flexmill"; //Containerized MariaDB
+            string databasePassword = "Your Password";
             connectionString = "server=" + databaseServer + ";port=" + databasePort + ";user=" + databaseUsername + ";password=" + databasePassword + ";database=flexmill";
-
-         //   Console.WriteLine(connectionString);
         }
 
         public static void ConnectToDatabase()
