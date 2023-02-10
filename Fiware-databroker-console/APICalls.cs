@@ -11,8 +11,7 @@ namespace Databroker
         readonly string BrokerUrl; // Contains the URL to broker
         public APICalls()
         {
-            FiwareUrl = "http://localhost:1026/"; // Set Fiware Url
-            FiwareUrl = "http://192.168.5.146:1026/";
+            FiwareUrl = "Your Fiware URL";
         }
 
         public string getFiwareUrl()
